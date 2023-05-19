@@ -1,7 +1,6 @@
 module.exports = {
   publicPath: './',
     devServer: {
-      host:'192.168.31.70',
       prot:9999,
       proxy: {
         '/api': {
