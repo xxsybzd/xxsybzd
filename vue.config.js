@@ -1,7 +1,6 @@
 module.exports = {
   publicPath: './',
     devServer: {
-      prot:9999,
       proxy: {
         '/api': {
           target: 'https://www.kuaikanmanhua.com',//漫画
